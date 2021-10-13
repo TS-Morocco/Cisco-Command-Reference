@@ -4,47 +4,47 @@
 
  * [Troubleshooting](#Troubleshooting)
  * [Line editing commands](#Line-Editing-Commands)
- * [Common Port Numbers and Protocols](#Common Port Numbers and Protocols)
- - [Router / Switch Basic Configuration](#Router / Switch Basic Configuration)
- - [For Switch Management Interface Configuration](#For Switch Management Interface Configuration)
- - [Configuring IPv4 Router Interface](#Configuring IPv4 Router Interface)
+ * [Common Port Numbers and Protocols](#Common-Port-Numbers-and-Protocols)
+ - [Router / Switch Basic Configuration](#Router-/-Switch-Basic-Configuration)
+ - [For Switch Management Interface Configuration](#For-Switch-Management-Interface-Configuration)
+ - [Configuring IPv4 Router Interface](#Configuring-IPv4-Router-Interface)
  - [Configuring IPv6 Router Interface](#Configuring IPv6 Router Interface)
  - [Layer-3 Switch Commands](#Layer-3 Switch Commands)
  - [VLANS, Trunks, Router-on-a-Stick, VTP](#VLANS, Trunks, Router-on-a-Stick, VTP)
- - [VLAN Creation and Port Assignment](#VLAN Creation and Port Assignment)
- - [Trunk Creation](#Trunk Creation)
- - [Router-on-a-Stick Configuration](#Router-on-a-Stick Configuration)
- - [VLAN Trunking Protocol (VTP) Configuration](#VLAN Trunking Protocol (VTP) Configuration)
- - [Etherchannel (PortChannel)](#Etherchannel (PortChannel))
- - [To configure a Layer 3 Etherchannel:](#To configure a Layer 3 Etherchannel:)
- - [Spanning Tree Protocol (STP), HSRP](#Spanning Tree Protocol (STP), HSRP)
- - [Spanning Tree](#Spanning Tree)
- - [Hot Standby Routing Protocol (HSRP) for IPv4](#Hot Standby Routing Protocol (HSRP) for IPv4)
- - [Security Practices](#Security Practices)
- - [SSH Configuration](#SSH Configuration)
- - [Port Security Configuration on a Switch](#Port Security Configuration on a Switch)
- - [Enable/Disable Cisco Discovery Protocol (CDP)](#Enable/Disable Cisco Discovery Protocol (CDP))
- - [IP DHCP Snooping](#IP DHCP Snooping)
- - [Routing (Static, RIP, EIGRP, OSPF)](#Routing (Static, RIP, EIGRP, OSPF))
- - [Configuring Static Routes](#Configuring Static Routes)
- - [Configuring RIP (IPv4)](#Configuring RIP (IPv4))
- - [Additional Commands to configure RIP Version 2](#Additional Commands to configure RIP Version 2)
- - [Configuring RIPng (for IPv6)](#Configuring RIPng (for IPv6))
- - [Configuring IPv4 EIGRP](#Configuring IPv4 EIGRP)
- - [Configuring IPv4 OSPF(v2)](#Configuring IPv4 OSPF(v2))
- - [Configure IPv6 OSPF(v3)](#Configure IPv6 OSPF(v3))
- - [Configure IPv6 EIGRP](#Configure IPv6 EIGRP)
- - [PPP and Frame-Relay](#PPP and Frame-Relay)
- - [Frame-Relay Commands](#Frame-Relay Commands)
- - [Multi-Point no sub-interface; Sample Configuration 3:](#Multi-Point no sub-interface; Sample Configuration 3:)
- - [Multi-Point with sub-interface; Sample Configuration 4:](#Multi-Point with sub-interface; Sample Configuration 4:)
- - [Access Control Lists](#Access Control Lists)
- - [Standard Access Lists](#Standard Access Lists)
- - [Applying Access Lists](#Applying Access Lists)
- - [Dynamic Access List (Stateful-Firewall)](#Dynamic Access List (Stateful-Firewall))
- - [Time-Based ACL](#Time-Based ACL)
- - [DHCP and NAT](#DHCP and NAT)
- - [Configure NAT for IPv4](#Configure NAT for IPv4)
+ - [VLAN Creation and Port Assignment](#VLAN-Creation-and-Port-Assignment)
+ - [Trunk Creation](#Trunk-Creation)
+ - [Router-on-a-Stick Configuration](#Router-on-a-Stick-Configuration)
+ - [VLAN Trunking Protocol (VTP) Configuration](#VLAN-Trunking-Protocol-(VTP)-Configuration)
+ - [Etherchannel (PortChannel)](#Etherchannel-(PortChannel))
+ - [To configure a Layer 3 Etherchannel:](#To-configure-a-Layer-3-Etherchannel:)
+ - [Spanning Tree Protocol (STP), HSRP](#Spanning-Tree-Protocol-(STP),-HSRP)
+ - [Spanning Tree](#Spanning-Tree)
+ - [Hot Standby Routing Protocol (HSRP) for IPv4](#Hot-Standby-Routing-Protocol-(HSRP)-for-IPv4)
+ - [Security Practices](#Security-Practices)
+ - [SSH Configuration](#SSH-Configuration)
+ - [Port Security Configuration on a Switch](#Port-Security-Configuration-on-a-Switch)
+ - [Enable/Disable Cisco Discovery Protocol (CDP)](#Enable/Disable-Cisco-Discovery-Protocol-(CDP))
+ - [IP DHCP Snooping](#IP-DHCP-Snooping)
+ - [Routing (Static, RIP, EIGRP, OSPF)](#Routing-(Static,-RIP,-EIGRP,-OSPF))
+ - [Configuring Static Routes](#Configuring-Static-Routes)
+ - [Configuring RIP (IPv4)](#Configuring-RIP-(IPv4))
+ - [Additional Commands to configure RIP Version 2](#Additional-Commands-to-configure-RIP-Version-2)
+ - [Configuring RIPng (for IPv6)](#Configuring-RIPng-(for-IPv6))
+ - [Configuring IPv4 EIGRP](#Configuring-IPv4-EIGRP)
+ - [Configuring IPv4 OSPF(v2)](#Configuring-IPv4-OSPF(v2))
+ - [Configure IPv6 OSPF(v3)](#Configure-IPv6-OSPF(v3))
+ - [Configure IPv6 EIGRP](#Configure-IPv6-EIGRP)
+ - [PPP and Frame-Relay](#PPP-and-Frame-Relay)
+ - [Frame-Relay Commands](#Frame-Relay-Commands)
+ - [Multi-Point no sub-interface; Sample Configuration 3:](#Multi-Point-no-sub-interface;-Sample-Configuration-3:)
+ - [Multi-Point with sub-interface; Sample Configuration 4:](#Multi-Point-with-sub-interface;-Sample-Configuration-4:)
+ - [Access Control Lists](#Access-Control-Lists)
+ - [Standard Access Lists](#Standard-Access-Lists)
+ - [Applying Access Lists](#Applying-Access-Lists)
+ - [Dynamic Access List (Stateful-Firewall)](#Dynamic-Access-List-(Stateful-Firewall))
+ - [Time-Based ACL](#Time-Based-ACL)
+ - [DHCP and NAT](#DHCP-and-NAT)
+ - [Configure NAT for IPv4](#Configure-NAT-for-IPv4)
 
 ## Troubleshooting
 ```zsh
@@ -100,7 +100,7 @@
                        wr | shortcut for ‘copy running-config startup-config                           |
 ```
 
-## Common Port Numbers and Protocols
+## Common-Port-Numbers-and-Protocols
 ```
     File Transfer Protocol (FTP)
     FTP Control=TCP port 21
@@ -124,7 +124,7 @@
     S1# reload  (answer ‘no’ if asked to save current config [Router or Switch])
 ```
 
-## Router / Switch Basic Configuration
+## Router-/-Switch-Basic-Configuration
 ```
 R1# configure terminal                              | enter global configuration mode                                           |
 R1(config)# hostname NAME                           | configure the NAME of the Router or Switch                                |
@@ -146,7 +146,7 @@ R1# wr                                              | legacy command - Same as c
 R1(config)# !                                       | remark – makes no configuration changes                                   |
 ```
 
-## For Switch Management Interface Configuration
+## For-Switch-Management-Interface-Configuration
 ```
 S1(config)# interface vlan 1                                    | create a virtual host on the switch                     |
 S1(config-if)# description Management interface for this switch | optional description                                    |
@@ -161,7 +161,7 @@ S1(config-line)# login                                          | tell the VTY p
 S1(config-line)# transport input telnet                         | allows only telnet for remote config – default          |
 ```
 
-## Configuring IPv4 Router Interface
+## Configuring-IPv4-Router-Interface
 ```
 R1(config)# interface INTERFACE-TYPE  | enter configuration mode for an interface              |
 R1(config-if)# ip address ADDRESS SNM | assign the IP Address and subnet mask                  |
@@ -172,7 +172,7 @@ R1(config-if)# no shutdown            | turn the interface on                   
 R1(config-if)# shutdown               | turn the interface off                                 |
 ```
 
-## Configuring IPv6 Router Interface
+## Configuring-IPv6-Router-Interface
 ```
 R1(config)# ipv6 unicast-routing                        | activate IPv6 routing – off by default |
 R1(config)# interface Gi1/1
@@ -183,7 +183,7 @@ R1(config-if)# ipv6 address 3ffe:b00:c18:1:: /64 eui-64 | auto configure host po
 R1(config-if)# ipv6 address fe80::4 link-local          | configure link-local address           |
 ```
 
-## Layer-3 Switch Commands
+## Layer-3-Switch-Commands
 ```
 S1(config)# ip routing                              | activate IPv4 routing within the switch                        |
 S1(config)# ipv6 routing                            | activate IPv6 routing within the switch                        |
@@ -191,9 +191,9 @@ S1(config-if)# no switchport                        | used to designate that thi
 S1(config-if)# switchport trunk encapsulation dot1q | to configure trunking for dot1Q                                |
 ```
 
-## VLANS, Trunks, Router-on-a-Stick, VTP
+## VLANS,-Trunks,-Router-on-a-Stick,-VTP
 
-### VLAN Creation and Port Assignment
+### VLAN-Creation-and-Port-Assignment
 ```
 S1(config)# vlan 10                      | create VLAN 10 in the VLAN.DAT database           |
 S1(config-vlan)# name Management         | optionally name the VLAN                          |
@@ -203,7 +203,7 @@ S1(config-if)# switchport mode access    | set the port to Access mode          
 S1(config-if)# switchport access vlan 10 | assign this port-s- to VLAN 10                    |
 ```
 
-## Trunk Creation
+## Trunk-Creation
 ```
 S1(config)# interface gi1/1                             | select port for trunking                                     |
 S1(config-if)# switchport trunk encapsulation dot1q     | NOTE: on Layer 3 switch only                                 |
@@ -212,7 +212,7 @@ S1(config-if)# switchport trunk native vlan 99          | set VLAN 99 to carry n
 S1(config-if)# switchport trunk allowed vlan 1,10,20,99 | optional, don’t forget to include VLAN 1 and the native VLAN |
 ```
 
-## Router-on-a-Stick Configuration
+## Router-on-a-Stick-Configuration
 ```
 R1(config)# interface Fa0/0                           | select the main interface                                  |
 R1(config-if)# no ip address                          | there should not be any IP Address on the main interface   |
@@ -226,7 +226,7 @@ R1(config)# ip classless                              | classless routing behavi
 R1(config)# no ip classless                           | classful routing behavior                                  |
 ```
 
-## VLAN Trunking Protocol (VTP) Configuration
+## VLAN-Trunking-Protocol-(VTP)-Configuration
 ```
 S1(config)# vtp mode server       | configure this switch to be in server mode                      | --or--
 S1(config)# vtp mode client       | configure this switch to be in client mode                      | ---or--
@@ -239,7 +239,7 @@ S1# show vtp status               | see VTP mode, revision, version, domain name
 S1# show vtp password             | only way to see the VTP password – does not show in status      |
 ```
 
-## Etherchannel (PortChannel)
+## Etherchannel-(PortChannel)
 ```
 To configure a Layer 2 (trunking) Etherchannel:
 S1(config)# interface range fa0/1 – 4               | group of physical interfaces                  |
@@ -261,7 +261,7 @@ S1(config-if)# switchport trunk native vlan 777     | set native VLAN the same a
 S1(config-if)# no shutdown                          | turn on the virtual interface                 |
 ```
 
-## To configure a Layer 3 Etherchannel:
+## To-configure-a-Layer-3-Etherchannel:
 ```
 SW1(config)# interface range fa0/1 – 2
 SW1(config-if)#  no switchport
@@ -271,7 +271,7 @@ SW1(config-if)# no switchport
 SW1(config-if)# ip address x.x.x.x m.m.m.m       |The other end is configured the same|
 ```
 
-## EtherChannel uses a load-balancing algorithm based on selected type or criteria:
+## EtherChannel-uses-a-load-balancing-algorithm-based-on-selected-type-or-criteria:
 ```
     Source IP Address (src-ip)
     Destination IP Address (dst-ip)
@@ -285,9 +285,9 @@ SW1(config-if)# ip address x.x.x.x m.m.m.m       |The other end is configured th
     SW1(config)# port-channel load-balance TYPE
 ```
 
-## Spanning Tree Protocol (STP), HSRP
+## Spanning-Tree-Protocol-(STP),-HSRP
 
-### Spanning Tree
+### Spanning-Tree
 ```
 S1(config)# spanning-tree mode pvst                   | configure for PVST – Default                       |
 S1(config)# spanning-tree mode rapid-pvst             | configure this switch for rapid PVST               |
@@ -307,7 +307,7 @@ S1# show spanning-tree blockedports                   | see which ports are in S
 S1# show spanning-tree root                           | see which BID is root on a VLAN-by-VLAN basis      |
 ```
 
-### Hot Standby Routing Protocol (HSRP) for IPv4
+### Hot-Standby-Routing-Protocol-(HSRP)-for-IPv4
 ```
 R1(config)# interface fastethernet 0/1
 R1(config)# standby version 2               |use the same version at each end|
@@ -328,14 +328,14 @@ Preempt will make this router the active one if it had been down and comes back 
 R1# show standby (verify the configuration)
 ```
 
-### Security Practices
+### Security-Practices
 ```
 R1(config)# service password-encryption              | encrypt all passwords (except ‘secret’                             |
 R1(config)# security password min-length 8           | set minimum 8 character passwords                                  |
 R1(config)# login block-for 120 attempts 3 within 60 | block for 2 minutes if more than 3 failed logins within 60 seconds |
 ```
 
-## SSH Configuration
+## SSH-Configuration
 ```
 Router(config)# hostname R1                  | must change the name of the device from the default     |
 R1(config)# username Bob password Let-me-in! | configure a local user and password                     |
@@ -347,7 +347,7 @@ R1(config-line)# login local                 | select to authenticate against us
 R1(config-line)# transport input ssh         | only allow SSH for remote management                    |
 ```
 
-## Port Security Configuration on a Switch
+## Port-Security-Configuration-on-a-Switch
 ```
 S1(config)# interface fa0/1 or interface range fa0/1 – 15, gi1/1
 S1(config-if)# switchport mode access                      | must change from dynamic to access mode              |
@@ -366,22 +366,22 @@ S1# errdisable recovery cause psecure_violation            | restore shutdown in
 S1# show port-security interface fa0/12                    | show security configuration for an interface         |
 ```
 
-### Enable/Disable Cisco Discovery Protocol (CDP)
+### Enable/Disable-Cisco-Discovery-Protocol-(CDP)
 ```
 R1(config)# cdp run          | activate CDP globally in the router – on by default      |
 R1(config)# no cdp run       | disable CDP within the entire router                     |
 R1(config-if)# no cdp enable | stop CDP updates leaving through this specific interface |
 ```
 
-## IP DHCP Snooping
+## IP-DHCP-Snooping
 ```
 R1(config)# ip dhcp snooping          | globally enable DHCP snooping |
 R1(config-if)# ip dhcp snooping trust | interface with DHCP server    |
 ```
 
-## Routing (Static, RIP, EIGRP, OSPF)
+## Routing-(Static,-RIP,-EIGRP,-OSPF)
 
-## Configuring Static Routes
+## Configuring-Static-Routes
 ```
 R1(config)# ip route 0.0.0.0  0.0.0.0 serial0/0                              | default-route goes out serial 0/0                                                                                 |
 R1(config)# ip route 0.0.0.0  0.0.0.0 50.77.4.13                             | default-route goes to next-hop 50.77.4.13                                                                         |
@@ -391,7 +391,7 @@ R1(config)# ip route 47.151.2.0  255.255.255.0 serial0/1                     | t
 R1(config)# ip route 47.151.2.0  255.255.255.0 192.168.12.2  fastethernet0/0 | to get to network 47.151.2.0/24, go to the next-hop 192.168.12.2 out Fastethernet0/0; on Ethernet both are needed |
 ```
 
-## Configuring RIP (IPv4)
+## Configuring-RIP-(IPv4)
 ```
 R1(config)# no router rip                            | remove all RIP configurations and routing table entries                                                                                          |
 R1(config)# router rip                               | enter rip configuration commands                                                                                                                 |
@@ -402,13 +402,13 @@ R1(config-router)# redistribute static               | configure RIP to include 
 R1# debug ip rip                                     | examine RIP updates in real-time                                                                                                                 |
 ```
 
-### Additional Commands to configure RIP Version 2
+### Additional-Commands-to-configure-RIP-Version-2
 ```
 R1(config-router)# version 2       | configure RIP for RIPv2                              |
 R1(config-router)# no auto-summary | turn off automatic classful summarization- suggested |
 ```
 
-## Configuring RIPng (for IPv6)
+## Configuring-RIPng-(for-IPv6)
 ```
 R1(config)# ipv6 route  ::/0 S0/0/1                        | default route goes out S0/0/1                |
 R1(config)# ipv6 router rip NAME                           | start the RIPng instance                     |
@@ -417,7 +417,7 @@ R1(config-if)# ipv6 rip NAME enable                        | include this interf
 R1(config-if)# ipv6 rip NAME default-information originate | send default route                           |
 ```
 
-## Configuring IPv4 EIGRP
+## Configuring-IPv4-EIGRP
 ```
 R1(config)# no router eigrp 100                                        | completely remove this instance of EIGRP in this router                         |
 R1(config)# router eigrp 100                                           | 100=Process ID within this network – Cisco calls this Autonomous System         |
@@ -447,7 +447,7 @@ R1# show ip eigrp topology                                             | see the
 R1# debug eigrp fsm                                                    | see what DUAL does when a route is removed from the routing table               |
 ```
 
-## Configuring IPv4 OSPF(v2)
+## Configuring-IPv4-OSPF(v2)
 ```
 R1(config)# interface loopback 10                             | optionally create a virtual interface for OSPF router ID                                  |
 R1(config)# router ospf 1                                     | configure an OSPF routing process                                                         |
@@ -478,7 +478,7 @@ R1# show ip ospf                        | display OSPF process and router IDs, a
 R1# show ip ospf interface serial 0/0/0 | see DR/BDR information, hello and dead intervals                     |
 ```
 
-## Configure IPv6 OSPF(v3)
+## Configure-IPv6-OSPF(v3)
 ```
 R1(config)# ipv6 unicast-routing              | turn on ipv6 routing                                   |
 R1(config)# no ipv6 router ospf 55            | remove this instance of OSPF in this router            |
@@ -496,7 +496,7 @@ R1(config-if)# ipv6 enable                    | allow IPv6 on this interface    
 R1(config-if)# ipv6 ospf 100 area 0           | associate this interface with IPv6 OSPF 55, area 0     |
 ```
 
-## Configure IPv6 EIGRP
+## Configure-IPv6-EIGRP
 ```
 R1(config)# ipv6 unicast-routing                                  | turn on ipv6 routing                                                                 |
 R1(config)# no ipv6 router eigrp 100                              | remove this instance of EIGRP in this router                                         |
@@ -520,7 +520,7 @@ R1(config-subif)# ipv6 authentication mode eigrp 10 md5           | turn on auth
 R1(config-subif)# ipv6 authentication key-chain eigrp 10 MYCHAIN  | use this key                                                                         |
 ```
 
-## PPP and Frame-Relay
+## PPP-and-Frame-Relay
 ```
 Configuring PPP with Authentication
 R1(config)# username R-2 password PASSWORD                 | configure for PAP / CHAP                                              |
@@ -537,7 +537,7 @@ R1(config-if)# ppp multilink                               | optional-combine mu
 R1(config-if)# encapsulation hdlc                          | reset the interface to the default value of HDLC                      |
 ```
 
-## Frame-Relay Commands
+## Frame-Relay-Commands
 ```
 -There are two basic types of Frame-Relay configuration: Point-to-Point and Multi-Point.
 -A Point-to-Point link involves a single IP subnet and one DLCI. It may be configured directly on the physical interface or may be done as a sub-interface.
@@ -559,7 +559,7 @@ R1(config-subif)# frame-relay interface-dlci  752                          | DLC
 -Multi-point configurations are when there is one IP subnet with multiple connections (DLCIs). It may be configured directly on the physical interface or may be done as a sub-interface.
 ```
 
-### Multi-Point no sub-interface; Sample Configuration 3:
+### Multi-Point-no-sub-interface;-Sample-Configuration-3:
 ```
 R1(config)# interface serial 0/0/0
 R1(config-if)# ip address 192.168.5.1  255.255.255.248 (not /30)
@@ -570,7 +570,7 @@ R1(config-if)# frame-relay map ip 192.168.5.2  752 broadcast [ietf, cisco] (192.
 R1(config-if)# frame-relay map ip 192.168.5.3  339 broadcast [ietf, cisco] (192.168.5.3 is next hop, DLCI=339, broadcast is optional, PVC=IEFT is optional – cisco is default)
 ```
 
-### Multi-Point with sub-interface; Sample Configuration 4:
+### Multi-Point-with-sub-interface;-Sample-Configuration-4:
 ```
 R1(config)# interface serial 0/0/0
 R1(config-if)# no ip address                                                  | no IP address on the main interface                                                                     |
@@ -591,9 +591,9 @@ Inactive: Connected to FR switch, but other side isn’t seen.
 Delete:  Not talking to the FR switch.
 ```
 
-## Access Control Lists
+## Access-Control-Lists
 
-### Standard Access Lists
+### Standard-Access-Lists
 ```
 -Standard access lists only evaluate the source IP field. They can use the ‘host’ and ‘any’ keywords, or apply wildcard masks. They do not use port numbers.
 Named Standard Access List :
@@ -617,7 +617,7 @@ Example: Deny everything:
 R-1(config-ext-nacl)# deny ip any any (this is applied by default if not configured)
 ```
 
-### Applying Access Lists
+### Applying-Access-Lists
 ```
 R-1(config)# interface fastethernet 0/0
 R-1(config-if)# ip access-group NAME in  | evaluate packets coming in to the router |
@@ -626,7 +626,7 @@ R-1(config)# line vty 0 4
 R-1(config-line)# access-class NAME in   | evaluate packets for telnet or SSH       |
 ```
 
-### Dynamic Access List (Stateful-Firewall)
+### Dynamic-Access-List-(Stateful-Firewall)
 ```
 R1(config)# ip access-list extended OUTBOUND-TRAFFIC
 R1(config-ext-nacl)# permit tcp any any reflect TCP-TRAFFIC
@@ -642,7 +642,7 @@ R1(config-if)# ip access-group OUTBOUND-TRAFFIC out
 R1(config-if)# ip access-group EVALUATE-INBOUND in
 ```
 
-### Time-Based ACL
+### Time-Based-ACL
 ```
 R-1(config)# time-range MON-WED-FRI
 R-1(config-time-range)# periodic Monday Wednesday Friday 8:00 to 17:00
@@ -651,7 +651,7 @@ R-1# show access-list           |see access lists on this router and # of ‘mat
 R-1# show access-list NAME      |see a specific access list and # of ‘matches’ per line|
 ```
 
-## DHCP and NAT
+## DHCP-and-NAT
 ```
 Configuring DHCP for IPv4
 R-1(config)# ip dhcp excluded 172.16.2.1 172.16.2.7            | excluded IP range                                  |
@@ -691,7 +691,7 @@ R1# show ipv6 dhcp pool
 R1# show ipv6 dhcp binding
 ```
 
-## Configure NAT for IPv4
+## Configure-NAT-for-IPv4
 ```
 -For both static and dynamic NAT, designate interfaces as inside or outside:
 R-1(config)# interface fa0/0        | typically designate all interfaces except the outside one |
