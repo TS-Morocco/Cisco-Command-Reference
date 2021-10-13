@@ -86,7 +86,7 @@ Command|Additional Notes
 ## Line-Editing-Commands
 
 Shortcut|Action
----:|---
+--:|---
                    ``ctrl-a`` | go to the beginning of the current line                                    |
                    ``ctrl-e`` | go to the end of the current line                                          |
        ``ctrl-p or up-arrow`` | repeat up to 10 previous commands in the current mode                      |
