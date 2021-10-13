@@ -2,8 +2,8 @@
 
 ## Summary
 
- * [Troubleshooting, Editing, Port #’s](#Troubleshooting, Editing, Port #’s)
- * [Line editing commands](#Line editing commands)
+ * [Troubleshooting](#Troubleshooting)
+ * [Line editing commands](#Line-Editing-Commands)
  * [Common Port Numbers and Protocols](#Common Port Numbers and Protocols)
  - [Router / Switch Basic Configuration](#Router / Switch Basic Configuration)
  - [For Switch Management Interface Configuration](#For Switch Management Interface Configuration)
@@ -46,8 +46,8 @@
  - [DHCP and NAT](#DHCP and NAT)
  - [Configure NAT for IPv4](#Configure NAT for IPv4)
 
-## Troubleshooting, Editing, Port #’s
-```
+## Troubleshooting
+```zsh
     show ip interface brief                          | display interface designations, IP address and status                    |
     show ip route                                    | display routing table                                                    |
     show vlan brief                                  | on switch - show what VLANs exist, names, ports assigned                 |
@@ -84,7 +84,7 @@
     undebug all                                      | turn off all debugging commands – handy if this is a busy router         |
 ```
 
-## Line editing commands
+## Line-Editing-Commands
 ```
                    ctrl-a | go to the beginning of the current line                                    |
                    ctrl-e | go to the end of the current line                                          |
