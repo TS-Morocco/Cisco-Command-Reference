@@ -3,32 +3,32 @@
 ## Basic commands and common knowledge: 
 
  * [Troubleshooting](#Troubleshooting)
- * [Line editing commands](#Line-Editing-Commands)
- * [Common Port Numbers and Protocols](#Common-Port-Numbers-and-Protocols)
  - [Router / Switch Basic Configuration](#RouterAndSwitch-Basic-Configuration)
  - [Enable/Disable Cisco Discovery Protocol (CDP)](#EnableDisable-Cisco-Discovery-Protocol-CDP)
+ * [Common Port Numbers and Protocols](#Common-Port-Numbers-and-Protocols)
+ * [Line editing commands](#Line-Editing-Commands)
 
 ## Switch configuration:
 
  - [For Switch Management Interface Configuration](#For-Switch-Management-Interface-Configuration)
- - [Layer-3 Switch Commands](#Layer-3-Switch-Commands)
  - [VLAN Creation and Port Assignment](#VLAN-Creation-and-Port-Assignment)
  - [Trunk Creation](#Trunk-Creation)
  - [VLAN Trunking Protocol (VTP) Configuration](#VLAN-Trunking-Protocol-VTP-Configuration)
- - [Etherchannel (PortChannel)](#Etherchannel-PortChannel)
- - [To configure a Layer 3 Etherchannel:](#To-configure-a-Layer-3-Etherchannel)
- - [Spanning Tree Protocol (STP), HSRP](#Spanning-Tree-Protocol-STP-HSRP)
  - [Spanning Tree](#Spanning-Tree)
- - [Hot Standby Routing Protocol (HSRP) for IPv4](#Hot-Standby-Routing-Protocol-HSRP-for-IPv4)
+ - [Etherchannel (PortChannel)](#Etherchannel-PortChannel)
  - [Security Practices](#Security-Practices)
  - [SSH Configuration](#SSH-Configuration)
  - [Port Security Configuration on a Switch](#Port-Security-Configuration-on-a-Switch)
+ - [Spanning Tree Protocol (STP), HSRP](#Spanning-Tree-Protocol-STP-HSRP)
+ - [Layer-3 Switch Commands](#Layer-3-Switch-Commands)
+ - [To configure a Layer 3 Etherchannel:](#To-configure-a-Layer-3-Etherchannel)
 
 ## Router Configguration:
 
  - [Configuring IPv4 Router Interface](#Configuring-IPv4-Router-Interface)
  - [Configuring IPv6 Router Interface](#Configuring-IPv6-Router-Interface)
  - [Router-on-a-Stick Configuration](#Router-on-a-Stick-Configuration)
+ - [Hot Standby Routing Protocol (HSRP) for IPv4](#Hot-Standby-Routing-Protocol-HSRP-for-IPv4)
  - [IP DHCP Snooping](#IP-DHCP-Snooping)
  - [Routing (Static, RIP, EIGRP, OSPF)](#Routing-Static-RIP-EIGRP-OSPF))
  - [Configuring Static Routes](#Configuring-Static-Routes)
