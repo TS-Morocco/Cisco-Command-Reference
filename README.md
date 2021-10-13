@@ -48,7 +48,7 @@
 ## Troubleshooting
 Command|Additional Notes
 ---|---
-`show ip interface brief`                          | display interface designations, IP address and status                    |
+``show ip interface brief``                          | display interface designations, IP address and status                    |
 ``show ip route``                                    | display routing table                                                    |
 ``show vlan brief``                                  | on switch - show what VLANs exist, names, ports assigned                 |
 ``show controllers serial x/x/x``                    | see if DCE or DTE connected and if clockrate is present                  |
@@ -62,7 +62,6 @@ Command|Additional Notes
 ``show interface serial x/x/x``                      | what encapsulation, IP address, counters                                 |
 ``show interface fastethernet x/x switchport``       | configured mode and operating mode                                       |
 ``show version``                                     | which IOS, capability, memory, configuration-register                    |
-``show run  | begin interface``                      | will start listing at the first instance of ‘interface                   |
 ``show ip route connected``                          | show routing table entries for directly connected networks               |
 ``show ip route static``                             | show routing table entries for static routes                             |
 ``show ip route ospf``                               | show routing table entries learned through OSPF                          |
@@ -85,26 +84,28 @@ Command|Additional Notes
 
 
 ## Line-Editing-Commands
-```
-                   ctrl-a | go to the beginning of the current line                                    |
-                   ctrl-e | go to the end of the current line                                          |
-       ctrl-p or up-arrow | repeat up to 10 previous commands in the current mode                      |
-       ctrl-n or dn-arrow | if you have gone back in command history, this moves forward               |
-            backspace-key | erase the character to the left of the current cursor position             |
-            ctrl-z or end | go out to privilege mode                                                   |
-                     exit | move back one level in the hierarchical command structure                  |
-                   ctrl-c | cancel current command or leave Setup mode if you accidentally get into it |
-             ctrl-shift-6 | stop ping or trace                                                         |
- terminal length 0 [zero] | turn off paging – makes output without breaks                              |
-       terminal length 24 | normal page breaks in output                                               |
-                       wr | shortcut for ‘copy running-config startup-config                           |
-```
+
+Shortcut|Action
+---:|---
+                   ``ctrl-a`` | go to the beginning of the current line                                    |
+                   ``ctrl-e`` | go to the end of the current line                                          |
+       ``ctrl-p or up-arrow`` | repeat up to 10 previous commands in the current mode                      |
+       ``ctrl-n or dn-arrow`` | if you have gone back in command history, this moves forward               |
+            ``backspace-key`` | erase the character to the left of the current cursor position             |
+            ``ctrl-z or end`` | go out to privilege mode                                                   |
+                     ``exit`` | move back one level in the hierarchical command structure                  |
+                   ``ctrl-c`` | cancel current command or leave Setup mode if you accidentally get into it |
+             ``ctrl-shift-6`` | stop ping or trace                                                         |
+       ``terminal length 24`` | normal page breaks in output                                               |
+                       ``wr`` | shortcut for ‘copy running-config startup-config                           |
 
 ## Common-Port-Numbers-and-Protocols
-```
-    File Transfer Protocol (FTP)
-    FTP Control=TCP port 21
-    FTP Data = TCP Port 20
+
+Protocol Name|Protocol Number
+---|---
+    File Transfer Protocol | FTP
+    FTP Control|TCP port 21
+    FTP Data | TCP Port 20
     Secure Shell (SSH) - TCP Port 22
     Telnet - TCP Port 23
     Simple Mail Transfer Protocol (SMTP) - TCP Port 25
@@ -122,7 +123,6 @@ Command|Additional Notes
     S1# delete vlan.dat (hit ‘enter’ to accept defaults) [Note: Only do this on a switch]
     S1# erase startup-config (hit ‘enter’ to accept defaults [Router or Switch])
     S1# reload  (answer ‘no’ if asked to save current config [Router or Switch])
-```
 
 ## RouterAndSwitch-Basic-Configuration
 ```
