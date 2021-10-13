@@ -1,4 +1,5 @@
 # Cisco Command Reference: 
+<<<<<<< HEAD
  - [Troubleshooting, Editing, Port #’s](https://github.com/GoCode0/Cisco-Command-Reference/blob/main/README.md?plain=1#L46)
  - [Line editing commands](https://github.com/GoCode0/Cisco-Command-Reference/blob/main/README.md?plain=1#L84)
  - [Common Port Numbers and Protocols](https://github.com/GoCode0/Cisco-Command-Reference/blob/main/README.md?plain=1#L100)
@@ -44,6 +45,52 @@
  - [Configure NAT for IPv4](https://github.com/GoCode0/Cisco-Command-Reference/blob/main/README.md?plain=1#L)
 
 ## Troubleshooting, Editing, Port #’s
+=======
+
+- [Troubleshooting, Editing, Port #’s](https://github.com/GoCode0/Cisco-Command-Reference/blob/main/README.md?plain=1#L46)
+
+ [Common Port Numbers and Protocols](https://github.com/GoCode0/Cisco-Command-Reference/README.md?plain=)
+ [Router / Switch Basic Configuration](https://github.com/GoCode0/Cisco-Command-Reference/README.md?plain=)
+ [For Switch Management Interface Configuration](https://github.com/GoCode0/Cisco-Command-Reference/README.md?plain=)
+ [Configuring IPv4 Router Interface](https://github.com/GoCode0/Cisco-Command-Reference/README.md?plain=)
+ [Configuring IPv6 Router Interface](https://github.com/GoCode0/Cisco-Command-Reference/README.md?plain=)
+ [Layer-3 Switch Commands](https://github.com/GoCode0/Cisco-Command-Reference/README.md?plain=)
+ [VLANS, Trunks, Router-on-a-Stick, VTP](https://github.com/GoCode0/Cisco-Command-Reference/README.md?plain=)
+ [VLAN Creation and Port Assignment](https://github.com/GoCode0/Cisco-Command-Reference/README.md?plain=)
+ [Trunk Creation](https://github.com/GoCode0/Cisco-Command-Reference/README.md?plain=)
+ [Router-on-a-Stick Configuration](https://github.com/GoCode0/Cisco-Command-Reference/README.md?plain=)
+ [VLAN Trunking Protocol (VTP) Configuration](https://github.com/GoCode0/Cisco-Command-Reference/README.md?plain=)
+ [Etherchannel (PortChannel)](https://github.com/GoCode0/Cisco-Command-Reference/README.md?plain=)
+ [To configure a Layer 3 Etherchannel:](https://github.com/GoCode0/Cisco-Command-Reference/README.md?plain=)
+ [Spanning Tree Protocol (STP), HSRP](https://github.com/GoCode0/Cisco-Command-Reference/README.md?plain=)
+ [Spanning Tree](https://github.com/GoCode0/Cisco-Command-Reference/README.md?plain=)
+ [Hot Standby Routing Protocol (HSRP) for IPv4](https://github.com/GoCode0/Cisco-Command-Reference/README.md?plain=)
+ [Security Practices](https://github.com/GoCode0/Cisco-Command-Reference/README.md?plain=)
+ [SSH Configuration](https://github.com/GoCode0/Cisco-Command-Reference/README.md?plain=)
+ [Port Security Configuration on a Switch](https://github.com/GoCode0/Cisco-Command-Reference/README.md?plain=)
+ [Enable/Disable Cisco Discovery Protocol (CDP)](https://github.com/GoCode0/Cisco-Command-Reference/README.md?plain=)
+ [IP DHCP Snooping](https://github.com/GoCode0/Cisco-Command-Reference/README.md?plain=)
+ [Routing (Static, RIP, EIGRP, OSPF)](https://github.com/GoCode0/Cisco-Command-Reference/README.md?plain=)
+ [Configuring Static Routes](https://github.com/GoCode0/Cisco-Command-Reference/README.md?plain=)
+ [Configuring RIP (IPv4)](https://github.com/GoCode0/Cisco-Command-Reference/README.md?plain=)
+ [Additional Commands to configure RIP Version 2](https://github.com/GoCode0/Cisco-Command-Reference/README.md?plain=)
+ [Configuring RIPng (for IPv6)](https://github.com/GoCode0/Cisco-Command-Reference/README.md?plain=)
+ [Configuring IPv4 EIGRP](https://github.com/GoCode0/Cisco-Command-Reference/README.md?plain=)
+ [Configuring IPv4 OSPF(v2)](https://github.com/GoCode0/Cisco-Command-Reference/README.md?plain=)
+ [Configure IPv6 OSPF(v3)](https://github.com/GoCode0/Cisco-Command-Reference/README.md?plain=)
+ [Configure IPv6 EIGRP](https://github.com/GoCode0/Cisco-Command-Reference/README.md?plain=)
+ [PPP and Frame-Relay](https://github.com/GoCode0/Cisco-Command-Reference/README.md?plain=)
+ [Frame-Relay Commands](https://github.com/GoCode0/Cisco-Command-Reference/README.md?plain=)
+ [Multi-Point no sub-interface; Sample Configuration 3:](https://github.com/GoCode0/Cisco-Command-Reference/README.md?plain=)
+ [Multi-Point with sub-interface; Sample Configuration 4:](https://github.com/GoCode0/Cisco-Command-Reference/README.md?plain=)
+ [Access Control Lists](https://github.com/GoCode0/Cisco-Command-Reference/README.md?plain=)
+ [Standard Access Lists](https://github.com/GoCode0/Cisco-Command-Reference/README.md?plain=)
+ [Applying Access Lists](https://github.com/GoCode0/Cisco-Command-Reference/README.md?plain=)
+ [Dynamic Access List (Stateful-Firewall)](https://github.com/GoCode0/Cisco-Command-Reference/README.md?plain=)
+ [Time-Based ACL](https://github.com/GoCode0/Cisco-Command-Reference/README.md?plain=)
+ [DHCP and NAT](https://github.com/GoCode0/Cisco-Command-Reference/README.md?plain=)
+ [Configure NAT for IPv4](https://github.com/GoCode0/Cisco-Command-Reference/README.md?plain=)
+>>>>>>> refs/remotes/origin/main
 ```
     show ip interface brief                          | display interface designations, IP address and status                    |
     show ip route                                    | display routing table                                                    |
