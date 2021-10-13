@@ -1,11 +1,10 @@
 # Cisco Command Reference: 
 
-## Summary
+## Basic commands and common knowledge: 
 
  * [Troubleshooting](#Troubleshooting)
  * [Line editing commands](#Line-Editing-Commands)
  * [Common Port Numbers and Protocols](#Common-Port-Numbers-and-Protocols)
- * [Basic-Router-or-Switch-Configuration](Basic-Router-or-Switch-Configuration)
  - [Router / Switch Basic Configuration](#RouterAndSwitch-Basic-Configuration)
  - [For Switch Management Interface Configuration](#For-Switch-Management-Interface-Configuration)
  - [Configuring IPv4 Router Interface](#Configuring-IPv4-Router-Interface)
@@ -85,7 +84,6 @@ Command|Additional Notes
 
 
 ## Line-Editing-Commands
-
 Shortcut|Action
 --:|---
 ``ctrl-a`` | go to the beginning of the current line                                    |
@@ -101,7 +99,6 @@ Shortcut|Action
 ``wr`` | shortcut for ‘copy running-config startup-config                           |
 
 ## Common-Port-Numbers-and-Protocols
-
 Protocol Name|Protocol Number
 --:|---
 ``FTP Control``|TCP port 21
@@ -120,7 +117,6 @@ Protocol Name|Protocol Number
 
 ## Basic-Router-or-Switch-Configuration
 To Restore a Switch or Router to Default Configuration:
-
 Command|Action
 ---|---
 ``S1# delete vlan.dat``|(hit ‘enter’ to accept defaults) [Note: Only do this on a switch]
