@@ -8,9 +8,9 @@
  - [Router / Switch Basic Configuration](#Router-/-Switch-Basic-Configuration)
  - [For Switch Management Interface Configuration](#For-Switch-Management-Interface-Configuration)
  - [Configuring IPv4 Router Interface](#Configuring-IPv4-Router-Interface)
- - [Configuring IPv6 Router Interface](#Configuring IPv6 Router Interface)
- - [Layer-3 Switch Commands](#Layer-3 Switch Commands)
- - [VLANS, Trunks, Router-on-a-Stick, VTP](#VLANS, Trunks, Router-on-a-Stick, VTP)
+ - [Configuring IPv6 Router Interface](#Configuring-IPv6-Router-Interface)
+ - [Layer-3 Switch Commands](#Layer-3-Switch-Commands)
+ - [VLANS, Trunks, Router-on-a-Stick, VTP](#VLANS,-Trunks,-Router-on-a-Stick,-VTP)
  - [VLAN Creation and Port Assignment](#VLAN-Creation-and-Port-Assignment)
  - [Trunk Creation](#Trunk-Creation)
  - [Router-on-a-Stick Configuration](#Router-on-a-Stick-Configuration)
@@ -193,7 +193,7 @@ S1(config-if)# switchport trunk encapsulation dot1q | to configure trunking for 
 
 ## VLANS,-Trunks,-Router-on-a-Stick,-VTP
 
-### VLAN-Creation-and-Port-Assignment
+## VLAN-Creation-and-Port-Assignment
 ```
 S1(config)# vlan 10                      | create VLAN 10 in the VLAN.DAT database           |
 S1(config-vlan)# name Management         | optionally name the VLAN                          |
@@ -287,7 +287,7 @@ SW1(config-if)# ip address x.x.x.x m.m.m.m       |The other end is configured th
 
 ## Spanning-Tree-Protocol-(STP),-HSRP
 
-### Spanning-Tree
+## Spanning-Tree
 ```
 S1(config)# spanning-tree mode pvst                   | configure for PVST – Default                       |
 S1(config)# spanning-tree mode rapid-pvst             | configure this switch for rapid PVST               |
@@ -307,7 +307,7 @@ S1# show spanning-tree blockedports                   | see which ports are in S
 S1# show spanning-tree root                           | see which BID is root on a VLAN-by-VLAN basis      |
 ```
 
-### Hot-Standby-Routing-Protocol-(HSRP)-for-IPv4
+## Hot-Standby-Routing-Protocol-(HSRP)-for-IPv4
 ```
 R1(config)# interface fastethernet 0/1
 R1(config)# standby version 2               |use the same version at each end|
@@ -328,7 +328,7 @@ Preempt will make this router the active one if it had been down and comes back 
 R1# show standby (verify the configuration)
 ```
 
-### Security-Practices
+## Security-Practices
 ```
 R1(config)# service password-encryption              | encrypt all passwords (except ‘secret’                             |
 R1(config)# security password min-length 8           | set minimum 8 character passwords                                  |
@@ -366,7 +366,7 @@ S1# errdisable recovery cause psecure_violation            | restore shutdown in
 S1# show port-security interface fa0/12                    | show security configuration for an interface         |
 ```
 
-### Enable/Disable-Cisco-Discovery-Protocol-(CDP)
+## Enable/Disable-Cisco-Discovery-Protocol-(CDP)
 ```
 R1(config)# cdp run          | activate CDP globally in the router – on by default      |
 R1(config)# no cdp run       | disable CDP within the entire router                     |
@@ -402,7 +402,7 @@ R1(config-router)# redistribute static               | configure RIP to include 
 R1# debug ip rip                                     | examine RIP updates in real-time                                                                                                                 |
 ```
 
-### Additional-Commands-to-configure-RIP-Version-2
+## Additional-Commands-to-configure-RIP-Version-2
 ```
 R1(config-router)# version 2       | configure RIP for RIPv2                              |
 R1(config-router)# no auto-summary | turn off automatic classful summarization- suggested |
@@ -559,7 +559,7 @@ R1(config-subif)# frame-relay interface-dlci  752                          | DLC
 -Multi-point configurations are when there is one IP subnet with multiple connections (DLCIs). It may be configured directly on the physical interface or may be done as a sub-interface.
 ```
 
-### Multi-Point-no-sub-interface;-Sample-Configuration-3:
+## Multi-Point-no-sub-interface;-Sample-Configuration-3:
 ```
 R1(config)# interface serial 0/0/0
 R1(config-if)# ip address 192.168.5.1  255.255.255.248 (not /30)
@@ -570,7 +570,7 @@ R1(config-if)# frame-relay map ip 192.168.5.2  752 broadcast [ietf, cisco] (192.
 R1(config-if)# frame-relay map ip 192.168.5.3  339 broadcast [ietf, cisco] (192.168.5.3 is next hop, DLCI=339, broadcast is optional, PVC=IEFT is optional – cisco is default)
 ```
 
-### Multi-Point-with-sub-interface;-Sample-Configuration-4:
+## Multi-Point-with-sub-interface;-Sample-Configuration-4:
 ```
 R1(config)# interface serial 0/0/0
 R1(config-if)# no ip address                                                  | no IP address on the main interface                                                                     |
@@ -593,7 +593,7 @@ Delete:  Not talking to the FR switch.
 
 ## Access-Control-Lists
 
-### Standard-Access-Lists
+## Standard-Access-Lists
 ```
 -Standard access lists only evaluate the source IP field. They can use the ‘host’ and ‘any’ keywords, or apply wildcard masks. They do not use port numbers.
 Named Standard Access List :
@@ -617,7 +617,7 @@ Example: Deny everything:
 R-1(config-ext-nacl)# deny ip any any (this is applied by default if not configured)
 ```
 
-### Applying-Access-Lists
+## Applying-Access-Lists
 ```
 R-1(config)# interface fastethernet 0/0
 R-1(config-if)# ip access-group NAME in  | evaluate packets coming in to the router |
@@ -626,7 +626,7 @@ R-1(config)# line vty 0 4
 R-1(config-line)# access-class NAME in   | evaluate packets for telnet or SSH       |
 ```
 
-### Dynamic-Access-List-(Stateful-Firewall)
+## Dynamic-Access-List-(Stateful-Firewall)
 ```
 R1(config)# ip access-list extended OUTBOUND-TRAFFIC
 R1(config-ext-nacl)# permit tcp any any reflect TCP-TRAFFIC
@@ -642,7 +642,7 @@ R1(config-if)# ip access-group OUTBOUND-TRAFFIC out
 R1(config-if)# ip access-group EVALUATE-INBOUND in
 ```
 
-### Time-Based-ACL
+## Time-Based-ACL
 ```
 R-1(config)# time-range MON-WED-FRI
 R-1(config-time-range)# periodic Monday Wednesday Friday 8:00 to 17:00
