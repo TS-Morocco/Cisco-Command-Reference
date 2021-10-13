@@ -5,7 +5,7 @@
  * [Troubleshooting](#Troubleshooting)
  * [Line editing commands](#Line-Editing-Commands)
  * [Common Port Numbers and Protocols](#Common-Port-Numbers-and-Protocols)
- - [Router / Switch Basic Configuration](#Router-/-Switch-Basic-Configuration)
+ - [Router / Switch Basic Configuration](#Router/Switch-Basic-Configuration)
  - [For Switch Management Interface Configuration](#For-Switch-Management-Interface-Configuration)
  - [Configuring IPv4 Router Interface](#Configuring-IPv4-Router-Interface)
  - [Configuring IPv6 Router Interface](#Configuring-IPv6-Router-Interface)
@@ -124,7 +124,7 @@
     S1# reload  (answer ‘no’ if asked to save current config [Router or Switch])
 ```
 
-## Router-/-Switch-Basic-Configuration
+## Router/Switch-Basic-Configuration
 ```
 R1# configure terminal                              | enter global configuration mode                                           |
 R1(config)# hostname NAME                           | configure the NAME of the Router or Switch                                |
