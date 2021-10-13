@@ -36,8 +36,8 @@
  - [Configure IPv6 EIGRP](#Configure-IPv6-EIGRP)
  - [PPP and Frame-Relay](#PPP-and-Frame-Relay)
  - [Frame-Relay Commands](#Frame-Relay-Commands)
- - [Multi-Point no sub-interface; Sample Configuration 3:](#Multi-Point-no-sub-interface;-Sample-Configuration-3:)
- - [Multi-Point with sub-interface; Sample Configuration 4:](#Multi-Point-with-sub-interface;-Sample-Configuration-4:)
+ - [Multi-Point no sub-interface; Sample Configuration 3:](#Multi-Point-no-sub-interface;-Sample-Configuration-3)
+ - [Multi-Point with sub-interface; Sample Configuration 4:](#Multi-Point-with-sub-interface;-Sample-Configuration-4)
  - [Access Control Lists](#Access-Control-Lists)
  - [Standard Access Lists](#Standard-Access-Lists)
  - [Applying Access Lists](#Applying-Access-Lists)
@@ -559,7 +559,7 @@ R1(config-subif)# frame-relay interface-dlci  752                          | DLC
 -Multi-point configurations are when there is one IP subnet with multiple connections (DLCIs). It may be configured directly on the physical interface or may be done as a sub-interface.
 ```
 
-## Multi-Point-no-sub-interface;-Sample-Configuration-3:
+## Multi-Point-no-sub-interface;-Sample-Configuration-3
 ```
 R1(config)# interface serial 0/0/0
 R1(config-if)# ip address 192.168.5.1  255.255.255.248 (not /30)
@@ -570,7 +570,7 @@ R1(config-if)# frame-relay map ip 192.168.5.2  752 broadcast [ietf, cisco] (192.
 R1(config-if)# frame-relay map ip 192.168.5.3  339 broadcast [ietf, cisco] (192.168.5.3 is next hop, DLCI=339, broadcast is optional, PVC=IEFT is optional – cisco is default)
 ```
 
-## Multi-Point-with-sub-interface;-Sample-Configuration-4:
+## Multi-Point-with-sub-interface;-Sample-Configuration-4
 ```
 R1(config)# interface serial 0/0/0
 R1(config-if)# no ip address                                                  | no IP address on the main interface                                                                     |
