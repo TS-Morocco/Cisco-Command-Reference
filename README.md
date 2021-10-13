@@ -46,8 +46,9 @@
  - [Configure NAT for IPv4](#Configure-NAT-for-IPv4)
 
 ## Troubleshooting
-```zsh
-    show ip interface brief                          | display interface designations, IP address and status                    |
+Command|Additional Notes
+---|---
+``show ip interface brief``                          | display interface designations, IP address and status                    |
     show ip route                                    | display routing table                                                    |
     show vlan brief                                  | on switch - show what VLANs exist, names, ports assigned                 |
     show controllers serial x/x/x                    | see if DCE or DTE connected and if clockrate is present                  |
@@ -77,11 +78,11 @@
     show standby                                     | see if HSRP is active                                                    |
     ping X.X.X.X                                     | try to reach the destination host at X.X.X.X                             |
     trace X.X.X.X                                    | show the path taken to reach the destination host at X.X.X.X             |
-    R1(config)do show ???                            | execute show commands from configuration mode                            |
+    R1(config)#do show ???                           | execute show commands from configuration mode                            |
     debug ???                                        | real-time reporting about processes related to almost any function       |
     debug all                                        | very dangerous as the router can become consumed by reporting everything |
     undebug all                                      | turn off all debugging commands – handy if this is a busy router         |
-```
+
 
 ## Line-Editing-Commands
 ```
