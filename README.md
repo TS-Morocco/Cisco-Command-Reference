@@ -1,6 +1,6 @@
 # Cisco Command Reference: 
 
- - Troubleshooting, Editing, Port #’s:target:anchor
+Troubleshooting, Editing, Port #’s:target:anchor
  - [Line editing commands](https://github.com/GoCode0/Cisco-Command-Reference/blob/main/README.md?#L84)
  - [Common Port Numbers and Protocols](https://github.com/GoCode0/Cisco-Command-Reference/blob/main/README.md?plain=1#L100)
  - [Router / Switch Basic Configuration](https://github.com/GoCode0/Cisco-Command-Reference/blob/main/README.md?plain=1#L124)
