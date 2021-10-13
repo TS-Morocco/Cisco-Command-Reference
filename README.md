@@ -48,7 +48,7 @@
 ## Troubleshooting
 Command|Additional Notes
 ---|---
-``show ip interface brief``                          | display interface designations, IP address and status                    |
+`show ip interface brief`                          | display interface designations, IP address and status                    |
 ``show ip route``                                    | display routing table                                                    |
 ``show vlan brief``                                  | on switch - show what VLANs exist, names, ports assigned                 |
 ``show controllers serial x/x/x``                    | see if DCE or DTE connected and if clockrate is present                  |
