@@ -49,39 +49,39 @@
 Command|Additional Notes
 ---|---
 ``show ip interface brief``                          | display interface designations, IP address and status                    |
-    show ip route                                    | display routing table                                                    |
-    show vlan brief                                  | on switch - show what VLANs exist, names, ports assigned                 |
-    show controllers serial x/x/x                    | see if DCE or DTE connected and if clockrate is present                  |
-    show interface trunk                             | what ports are trunking, native vlan, allowed vlans                      |
-    show running-config                              | display the running configuration - active                               |
-    show startup-config                              | display the startup configuration                                        |
-    show ip protocol                                 | what routing protocol, which networks, passive interfaces, neighbors     |
-    show cdp neighbors                               | see directly connected Cisco devices                                     |
-    show cdp neighbors detail                        | includes IP address at other end                                         |
-    show cdp interface                               | which interfaces are running CDP                                         |
-    show interface serial x/x/x                      | what encapsulation, IP address, counters                                 |
-    show interface fastethernet x/x switchport       | configured mode and operating mode                                       |
-    show version                                     | which IOS, capability, memory, configuration-register                    |
-    show run  | begin interface                      | will start listing at the first instance of ‘interface                   |
-    show ip route connected                          | show routing table entries for directly connected networks               |
-    show ip route static                             | show routing table entries for static routes                             |
-    show ip route ospf                               | show routing table entries learned through OSPF                          |
-    show ip route eigrp                              | show routing table entries learned through EIGRP                         |
-    show mac-address-table or show mac address-table | varies with different IOS                                                |
-    show flash                                       | display filenames and directories in Flash memory                        |
-    show clock                                       | current date/time in this device                                         |
-    show ipv6 ???                                    | does the IPv6 version of many IPv4 commands                              |
-    show processes                                   | shows active processes running on router                                 |
-    show process cpu                                 | shows cpu statistics                                                     |
-    show memory                                      | shows memory allocation                                                  |
-    show users                                       | show who is telnetted into this device                                   |
-    show standby                                     | see if HSRP is active                                                    |
-    ping X.X.X.X                                     | try to reach the destination host at X.X.X.X                             |
-    trace X.X.X.X                                    | show the path taken to reach the destination host at X.X.X.X             |
-    R1(config)#do show ???                           | execute show commands from configuration mode                            |
-    debug ???                                        | real-time reporting about processes related to almost any function       |
-    debug all                                        | very dangerous as the router can become consumed by reporting everything |
-    undebug all                                      | turn off all debugging commands – handy if this is a busy router         |
+``show ip route``                                    | display routing table                                                    |
+``show vlan brief``                                  | on switch - show what VLANs exist, names, ports assigned                 |
+``show controllers serial x/x/x``                    | see if DCE or DTE connected and if clockrate is present                  |
+``show interface trunk``                             | what ports are trunking, native vlan, allowed vlans                      |
+``show running-config``                              | display the running configuration - active                               |
+``show startup-config``                              | display the startup configuration                                        |
+``show ip protocol``                                 | what routing protocol, which networks, passive interfaces, neighbors     |
+``show cdp neighbors``                               | see directly connected Cisco devices                                     |
+``show cdp neighbors detail``                        | includes IP address at other end                                         |
+``show cdp interface``                               | which interfaces are running CDP                                         |
+``show interface serial x/x/x``                      | what encapsulation, IP address, counters                                 |
+``show interface fastethernet x/x switchport``       | configured mode and operating mode                                       |
+``show version``                                     | which IOS, capability, memory, configuration-register                    |
+``show run  | begin interface``                      | will start listing at the first instance of ‘interface                   |
+``show ip route connected``                          | show routing table entries for directly connected networks               |
+``show ip route static``                             | show routing table entries for static routes                             |
+``show ip route ospf``                               | show routing table entries learned through OSPF                          |
+``show ip route eigrp``                              | show routing table entries learned through EIGRP                         |
+``show mac-address-table or show mac address-table`` | varies with different IOS                                                |
+``show flash``                                       | display filenames and directories in Flash memory                        |
+``show clock``                                       | current date/time in this device                                         |
+``show ipv6 ???``                                    | does the IPv6 version of many IPv4 commands                              |
+``show processes``                                   | shows active processes running on router                                 |
+``show process cpu``                                 | shows cpu statistics                                                     |
+``show memory``                                      | shows memory allocation                                                  |
+``show users``                                       | show who is telnetted into this device                                   |
+``show standby``                                     | see if HSRP is active                                                    |
+``ping X.X.X.X``                                     | try to reach the destination host at X.X.X.X                             |
+``trace X.X.X.X``                                    | show the path taken to reach the destination host at X.X.X.X             |
+``R1(config)#do show ???``                           | execute show commands from configuration mode                            |
+``debug ???``                                        | real-time reporting about processes related to almost any function       |
+``debug all``                                        | very dangerous as the router can become consumed by reporting everything |
+``undebug all``                                      | turn off all debugging commands – handy if this is a busy router         |
 
 
 ## Line-Editing-Commands
