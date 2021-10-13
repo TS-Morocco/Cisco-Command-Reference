@@ -10,7 +10,6 @@
  - [Configuring IPv4 Router Interface](#Configuring-IPv4-Router-Interface)
  - [Configuring IPv6 Router Interface](#Configuring-IPv6-Router-Interface)
  - [Layer-3 Switch Commands](#Layer-3-Switch-Commands)
- - [VLANS, Trunks, Router-on-a-Stick, VTP](#VLANS,-Trunks,-Router-on-a-Stick,-VTP)
  - [VLAN Creation and Port Assignment](#VLAN-Creation-and-Port-Assignment)
  - [Trunk Creation](#Trunk-Creation)
  - [Router-on-a-Stick Configuration](#Router-on-a-Stick-Configuration)
