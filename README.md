@@ -1,7 +1,6 @@
 # Cisco Command Reference: 
 
 ## Basic commands and common knowledge: 
-
  * [Troubleshooting](#Troubleshooting)
  - [Router / Switch Basic Configuration](#RouterAndSwitch-Basic-Configuration)
  - [Enable/Disable Cisco Discovery Protocol (CDP)](#EnableDisable-Cisco-Discovery-Protocol-CDP)
@@ -9,7 +8,6 @@
  * [Line editing commands](#Line-Editing-Commands)
 
 ## Switch configuration:
-
  - [For Switch Management Interface Configuration](#For-Switch-Management-Interface-Configuration)
  - [VLAN Creation and Port Assignment](#VLAN-Creation-and-Port-Assignment)
  - [Trunk Creation](#Trunk-Creation)
@@ -24,7 +22,6 @@
  - [To configure a Layer 3 Etherchannel:](#To-configure-a-Layer-3-Etherchannel)
 
 ## Router Configguration:
-
  - [Configuring IPv4 Router Interface](#Configuring-IPv4-Router-Interface)
  - [Configuring IPv6 Router Interface](#Configuring-IPv6-Router-Interface)
  - [Router-on-a-Stick Configuration](#Router-on-a-Stick-Configuration)
