@@ -6,13 +6,14 @@
  * [Line editing commands](#Line-Editing-Commands)
  * [Common Port Numbers and Protocols](#Common-Port-Numbers-and-Protocols)
  - [Router / Switch Basic Configuration](#RouterAndSwitch-Basic-Configuration)
+ - [Enable/Disable Cisco Discovery Protocol (CDP)](#EnableDisable-Cisco-Discovery-Protocol-CDP)
+
+## Switch configuration:
+
  - [For Switch Management Interface Configuration](#For-Switch-Management-Interface-Configuration)
- - [Configuring IPv4 Router Interface](#Configuring-IPv4-Router-Interface)
- - [Configuring IPv6 Router Interface](#Configuring-IPv6-Router-Interface)
  - [Layer-3 Switch Commands](#Layer-3-Switch-Commands)
  - [VLAN Creation and Port Assignment](#VLAN-Creation-and-Port-Assignment)
  - [Trunk Creation](#Trunk-Creation)
- - [Router-on-a-Stick Configuration](#Router-on-a-Stick-Configuration)
  - [VLAN Trunking Protocol (VTP) Configuration](#VLAN-Trunking-Protocol-VTP-Configuration)
  - [Etherchannel (PortChannel)](#Etherchannel-PortChannel)
  - [To configure a Layer 3 Etherchannel:](#To-configure-a-Layer-3-Etherchannel)
@@ -22,7 +23,12 @@
  - [Security Practices](#Security-Practices)
  - [SSH Configuration](#SSH-Configuration)
  - [Port Security Configuration on a Switch](#Port-Security-Configuration-on-a-Switch)
- - [Enable/Disable Cisco Discovery Protocol (CDP)](#EnableDisable-Cisco-Discovery-Protocol-CDP)
+
+## Router Configguration:
+
+ - [Configuring IPv4 Router Interface](#Configuring-IPv4-Router-Interface)
+ - [Configuring IPv6 Router Interface](#Configuring-IPv6-Router-Interface)
+ - [Router-on-a-Stick Configuration](#Router-on-a-Stick-Configuration)
  - [IP DHCP Snooping](#IP-DHCP-Snooping)
  - [Routing (Static, RIP, EIGRP, OSPF)](#Routing-Static-RIP-EIGRP-OSPF))
  - [Configuring Static Routes](#Configuring-Static-Routes)
