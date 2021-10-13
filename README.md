@@ -1,8 +1,10 @@
 # Cisco Command Reference: 
 
- [Troubleshooting, Editing, Port #’s](#Troubleshooting, Editing, Port #’s)
- [Line editing commands](#Line editing commands)
- [Common Port Numbers and Protocols](#Common Port Numbers and Protocols)
+## Summary
+
+ * [Troubleshooting, Editing, Port #’s](#Troubleshooting, Editing, Port #’s)
+ * [Line editing commands](#Line editing commands)
+ * [Common Port Numbers and Protocols](#Common Port Numbers and Protocols)
  - [Router / Switch Basic Configuration](#Router / Switch Basic Configuration)
  - [For Switch Management Interface Configuration](#For Switch Management Interface Configuration)
  - [Configuring IPv4 Router Interface](#Configuring IPv4 Router Interface)
