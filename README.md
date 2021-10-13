@@ -13,7 +13,7 @@
  - [VLAN Creation and Port Assignment](#VLAN-Creation-and-Port-Assignment)
  - [Trunk Creation](#Trunk-Creation)
  - [Router-on-a-Stick Configuration](#Router-on-a-Stick-Configuration)
- - [VLAN Trunking Protocol (VTP) Configuration](#VLAN-Trunking-Protocol-(VTP)-Configuration)
+ - [VLAN Trunking Protocol (VTP) Configuration](#VLAN-Trunking-Protocol-VTP-Configuration)
  - [Etherchannel (PortChannel)](#Etherchannel-(PortChannel))
  - [To configure a Layer 3 Etherchannel:](#To-configure-a-Layer-3-Etherchannel)
  - [Spanning Tree Protocol (STP), HSRP](#Spanning-Tree-Protocol-(STP),-HSRP)
@@ -225,7 +225,7 @@ R1(config)# ip classless                              | classless routing behavi
 R1(config)# no ip classless                           | classful routing behavior                                  |
 ```
 
-## VLAN-Trunking-Protocol-(VTP)-Configuration
+## VLAN-Trunking-Protocol-VTP-Configuration
 ```
 S1(config)# vtp mode server       | configure this switch to be in server mode                      | --or--
 S1(config)# vtp mode client       | configure this switch to be in client mode                      | ---or--
