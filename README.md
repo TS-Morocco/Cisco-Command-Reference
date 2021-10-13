@@ -16,7 +16,7 @@
  - [Router-on-a-Stick Configuration](#Router-on-a-Stick-Configuration)
  - [VLAN Trunking Protocol (VTP) Configuration](#VLAN-Trunking-Protocol-(VTP)-Configuration)
  - [Etherchannel (PortChannel)](#Etherchannel-(PortChannel))
- - [To configure a Layer 3 Etherchannel:](#To-configure-a-Layer-3-Etherchannel:)
+ - [To configure a Layer 3 Etherchannel:](#To-configure-a-Layer-3-Etherchannel)
  - [Spanning Tree Protocol (STP), HSRP](#Spanning-Tree-Protocol-(STP),-HSRP)
  - [Spanning Tree](#Spanning-Tree)
  - [Hot Standby Routing Protocol (HSRP) for IPv4](#Hot-Standby-Routing-Protocol-(HSRP)-for-IPv4)
@@ -261,7 +261,7 @@ S1(config-if)# switchport trunk native vlan 777     | set native VLAN the same a
 S1(config-if)# no shutdown                          | turn on the virtual interface                 |
 ```
 
-## To-configure-a-Layer-3-Etherchannel:
+## To-configure-a-Layer-3-Etherchannel
 ```
 SW1(config)# interface range fa0/1 – 2
 SW1(config-if)#  no switchport
