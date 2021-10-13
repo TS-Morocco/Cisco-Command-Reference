@@ -1,7 +1,7 @@
 # Cisco Command Reference: 
 
- - [Troubleshooting, Editing, Port #’s](https://github.com/GoCode0/Cisco-Command-Reference/blob/main/README.md?plain=0#L46)
- - [Line editing commands](https://github.com/GoCode0/Cisco-Command-Reference/blob/main/README.md?plain=0#L84)
+ - [Troubleshooting, Editing, Port #’s](https://github.com/GoCode0/Cisco-Command-Reference/blob/main/README.md?#L46)
+ - [Line editing commands](https://github.com/GoCode0/Cisco-Command-Reference/blob/main/README.md?#L84)
  - [Common Port Numbers and Protocols](https://github.com/GoCode0/Cisco-Command-Reference/blob/main/README.md?plain=1#L100)
  - [Router / Switch Basic Configuration](https://github.com/GoCode0/Cisco-Command-Reference/blob/main/README.md?plain=1#L124)
  - [For Switch Management Interface Configuration](https://github.com/GoCode0/Cisco-Command-Reference/blob/main/README.md?plain=1#L146)
