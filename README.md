@@ -50,7 +50,7 @@
 
 ## Troubleshooting
 Command|Additional Notes
----:|----
+----|----
 ``show ip interface brief``                          | display interface designations, IP address and status                    |
 ``show ip route``                                    | display routing table                                                    |
 ``show vlan brief``                                  | on switch - show what VLANs exist, names, ports assigned                 |
@@ -60,15 +60,11 @@ Command|Additional Notes
 ``show startup-config``                              | display the startup configuration                                        |
 ``show ip protocol``                                 | what routing protocol, which networks, passive interfaces, neighbors     |
 ``show cdp neighbors``                               | see directly connected Cisco devices                                     |
-``show cdp neighbors detail``                        | includes IP address at other end                                         |
 ``show cdp interface``                               | which interfaces are running CDP                                         |
 ``show interface serial x/x/x``                      | what encapsulation, IP address, counters                                 |
 ``show interface fastethernet x/x switchport``       | configured mode and operating mode                                       |
 ``show version``                                     | which IOS, capability, memory, configuration-register                    |
-``show ip route connected``                          | show routing table entries for directly connected networks               |
-``show ip route static``                             | show routing table entries for static routes                             |
-``show ip route ospf``                               | show routing table entries learned through OSPF                          |
-``show ip route eigrp``                              | show routing table entries learned through EIGRP                         |
+``show ip route``                                    | show routing table entries learned through EIGRP                         |
 ``show mac-address-table or show mac address-table`` | varies with different IOS                                                |
 ``show flash``                                       | display filenames and directories in Flash memory                        |
 ``show clock``                                       | current date/time in this device                                         |
@@ -87,19 +83,19 @@ Command|Additional Notes
 
 
 ## Line-Editing-Commands
-Shortcut|Action
---:|---
-``ctrl-a`` | go to the beginning of the current line                                    |
-``ctrl-e`` | go to the end of the current line                                          |
+Shortcut               | Action
+--:                    | ---
+``ctrl-a``             | go to the beginning of the current line                                    |
+``ctrl-e``             | go to the end of the current line                                          |
 ``ctrl-p or up-arrow`` | repeat up to 10 previous commands in the current mode                      |
 ``ctrl-n or dn-arrow`` | if you have gone back in command history, this moves forward               |
-``backspace-key`` | erase the character to the left of the current cursor position             |
-``ctrl-z or end`` | go out to privilege mode                                                   |
-``exit`` | move back one level in the hierarchical command structure                  |
-``ctrl-c`` | cancel current command or leave Setup mode if you accidentally get into it |
-``ctrl-shift-6`` | stop ping or trace                                                         |
+``backspace-key``      | erase the character to the left of the current cursor position             |
+``ctrl-z or end``      | go out to privilege mode                                                   |
+``exit``               | move back one level in the hierarchical command structure                  |
+``ctrl-c``             | cancel current command or leave Setup mode if you accidentally get into it |
+``ctrl-shift-6``       | stop ping or trace                                                         |
 ``terminal length 24`` | normal page breaks in output                                               |
-``wr`` | shortcut for ‘copy running-config startup-config                           |
+``wr``                 | shortcut for ‘copy running-config startup-config                           |
 
 ## Common-Port-Numbers-and-Protocols
 Protocol Name|Protocol Number
