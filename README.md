@@ -1,13 +1,13 @@
 # Cisco Command Reference: 
 
-## Basic commands and common knowledge: 
+## Basic commands and common knowledge | Connaissances generales 
  - [Troubleshooting](#Troubleshooting)
  - [Router / Switch Basic Configuration](#RouterAndSwitch-Basic-Configuration)
  - [Enable/Disable Cisco Discovery Protocol (CDP)](#EnableDisable-Cisco-Discovery-Protocol-CDP)
  - [Common Port Numbers and Protocols](#Common-Port-Numbers-and-Protocols)
  - [Line editing commands](#Line-Editing-Commands)
 
-## Switch configuration:
+## Switch configuration | Configuration des commutateurs
  - [Switch Management Interface Configuration](#For-Switch-Management-Interface-Configuration)
  - [VLAN Creation and Port Assignment](#VLAN-Creation-and-Port-Assignment)
  - [Trunk Creation](#Trunk-Creation)
@@ -21,7 +21,7 @@
  - [Layer-3 Switch Commands](#Layer-3-Switch-Commands)
  - [To configure a Layer 3 Etherchannel:](#To-configure-a-Layer-3-Etherchannel)
 
-## Router Configuration:
+## Router Configuration | Configuration des routeurs
  - [Configuring IPv4 Router Interface](#Configuring-IPv4-Router-Interface)
  - [Configuring IPv6 Router Interface](#Configuring-IPv6-Router-Interface)
  - [Router-on-a-Stick Configuration](#Router-on-a-Stick-Configuration)
@@ -48,11 +48,11 @@
  - [DHCP and NAT](#DHCP-and-NAT)
  - [Configure NAT for IPv4](#Configure-NAT-for-IPv4)
 
-## Troubleshooting
+## Troubleshooting | Depanage
 Command|Additional Notes
 ----|----
-``show ip interface brief``                          | display interface designations, IP address and status                    |
-``show ip route``                                    | display routing table                                                    |
+``show ip interface brief``                          | Use it all the time, specially when configuring IP Adresses              |
+``show ip route``                                    | display routing table - Afficher la table de routage                     |
 ``show vlan brief``                                  | on switch - show what VLANs exist, names, ports assigned                 |
 ``show controllers serial x/x/x``                    | see if DCE or DTE connected and if clockrate is present                  |
 ``show interface trunk``                             | what ports are trunking, native vlan, allowed vlans                      |
@@ -80,7 +80,6 @@ Command|Additional Notes
 ``debug ???``                                        | real-time reporting about processes related to almost any function       |
 ``debug all``                                        | very dangerous as the router can become consumed by reporting everything |
 ``undebug all``                                      | turn off all debugging commands – handy if this is a busy router         |
-
 
 ## Line-Editing-Commands
 Shortcut               | Action
