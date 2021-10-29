@@ -8,13 +8,13 @@
  - [Line editing commands](#Line-Editing-Commands)
 
 ## Switch configuration:
- - [For Switch Management Interface Configuration](#For-Switch-Management-Interface-Configuration)
+ - [Switch Management Interface Configuration](#For-Switch-Management-Interface-Configuration)
  - [VLAN Creation and Port Assignment](#VLAN-Creation-and-Port-Assignment)
  - [Trunk Creation](#Trunk-Creation)
  - [VLAN Trunking Protocol (VTP) Configuration](#VLAN-Trunking-Protocol-VTP-Configuration)
  - [Spanning Tree](#Spanning-Tree)
  - [Etherchannel (PortChannel)](#Etherchannel-PortChannel)
- - [Security Practices](#Security-Practices)
+ - [Security](#Security-Practices)
  - [SSH Configuration](#SSH-Configuration)
  - [Port Security Configuration on a Switch](#Port-Security-Configuration-on-a-Switch)
  - [Spanning Tree Protocol (STP), HSRP](#Spanning-Tree-Protocol-STP-HSRP)
@@ -97,7 +97,7 @@ Shortcut               | Action
 ``terminal length 24`` | normal page breaks in output                                               |
 ``wr``                 | shortcut for ‘copy running-config startup-config                           |
 
-## Common-Port-Numbers-and-Protocols
+## Port-Numbers-and-Protocols
 Protocol Name|Protocol Number
 --:|---
 ``FTP Control``|TCP port 21
