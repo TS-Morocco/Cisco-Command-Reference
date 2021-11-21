@@ -7,7 +7,7 @@
  - [Troubleshooting | Dépannage](#Troubleshooting)
  - [Router / Switch Basic Configuration | Configuration de base des commutateurs/Routeurs](#RouterAndSwitch-Basic-Configuration)
  - [Enable/Disable Cisco Discovery Protocol (CDP) | Activation/Désactivation du protocole CDP](#EnableDisable-Cisco-Discovery-Protocol-CDP)
- - [Common Port Numbers and Protocols | Numéro de ports et protocoles courants](#Common-Port-Numbers-and-Protocols)
+ - [Common Port Numbers and Protocols | Numéro de ports et protocoles courants](#Port-Numbers-and-Protocols)
  - [Line editing commands | Raccourcis clavier](#Line-Editing-Commands)
 
 ## Switch configuration | Configuration des commutateurs
