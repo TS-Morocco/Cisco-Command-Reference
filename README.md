@@ -4,7 +4,7 @@
 # Cisco Command Reference | Référence pour les commandes cisco:
 
 ## Basic commands and common knowledge | Connaissances générales 
- - [Troubleshooting | Dépannage-Résolution de problème](#Troubleshooting)
+ - [Troubleshooting | Dépannage](#Troubleshooting)
  - [Router / Switch Basic Configuration | Configuration de base des commutateurs/Routeurs](#RouterAndSwitch-Basic-Configuration)
  - [Enable/Disable Cisco Discovery Protocol (CDP) | Activation/Désactivation du protocole CDP](#EnableDisable-Cisco-Discovery-Protocol-CDP)
  - [Common Port Numbers and Protocols | Numéro de ports et protocoles courants](#Common-Port-Numbers-and-Protocols)
