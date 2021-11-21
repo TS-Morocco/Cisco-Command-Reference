@@ -1,7 +1,7 @@
 # Cisco Command Reference | Référence pour les commandes cisco: 
 
 ## Basic commands and common knowledge | Connaissances générales 
- - [Troubleshooting | Dépannage-Résolution des problèmes](#Troubleshooting)
+ - [Troubleshooting | Dépannage-Résolution de problème](#Troubleshooting)
  - [Router / Switch Basic Configuration | Configuration de base des commutateurs/Routeurs](#RouterAndSwitch-Basic-Configuration)
  - [Enable/Disable Cisco Discovery Protocol (CDP) | Activation/Désactivation du protocole CDP](#EnableDisable-Cisco-Discovery-Protocol-CDP)
  - [Common Port Numbers and Protocols | Numéro de ports et protocoles courants](#Common-Port-Numbers-and-Protocols)
@@ -12,51 +12,50 @@
  - [VLAN Creation and Port Assignment | Création de VLANs et configuration des ports d'accès](#VLAN-Creation-and-Port-Assignment)
  - [Trunk Creation | Configuration des ports trunk](#Trunk-Creation)
  - [VLAN Trunking Protocol (VTP) Configuration](#VLAN-Trunking-Protocol-VTP-Configuration)
- - [Etherchannel (PortChannel)](#Etherchannel-PortChannel)
+ - [Etherchannel (PortChannel) | Agrégation de liaisons](#Etherchannel-PortChannel)
  - [Security | Sécurité](#Security-Practices)
- - [SSH Configuration](#SSH-Configuration)
+ - [SSH Configuration | Configuration du protocole SSH pour la gestion à distance](#SSH-Configuration)
  - [Port Security Configuration on a Switch | Configuration de la sécurité des ports sur un commutateur](#Port-Security-Configuration-on-a-Switch)
- - [Spanning Tree Protocol (STP), HSRP](#Spanning-Tree-Protocol-STP-HSRP)
+ - [Spanning Tree Protocol (STP), HSRP | Configuration du protocole STP](#Spanning-Tree-Protocol-STP-HSRP)
  - [Layer-3 Switch Commands | Configuration des commutateurs couche 3](#Layer-3-Switch-Commands)
 
 ## Router Configuration | Configuration des routeurs
  - [Configuring IPv4/IPv6 Router Interface | Configuration des interfaces IPv4/IPv6 d'un routeur](#Configuring-IPv4-Router-Interface)
  - [Router-on-a-Stick Configuration | Routage inter-Vlan](#Router-on-a-Stick-Configuration)
  - [Hot Standby Routing Protocol (HSRP) for IPv4](#Hot-Standby-Routing-Protocol-HSRP-for-IPv4)
- - [IP DHCP Snooping](#IP-DHCP-Snooping)
- - [Routing (Static, RIP, EIGRP, OSPF)](#Routing-Static-RIP-EIGRP-OSPF))
- - [Configuring Static Routes](#Configuring-Static-Routes)
- - [Configuring RIP (IPv4)](#Configuring-RIP-IPv4)
- - [Additional Commands to configure RIP Version 2](#Additional-Commands-to-configure-RIP-Version-2)
- - [Configuring RIPng (for IPv6)](#Configuring-RIPng-for-IPv6)
- - [Configuring IPv4 EIGRP](#Configuring-IPv4-EIGRP)
- - [Configuring IPv4 OSPF(v2)](#Configuring-IPv4-OSPFv2)
- - [Configure IPv6 OSPF(v3)](#Configure-IPv6-OSPFv3)
- - [Configure IPv6 EIGRP](#Configure-IPv6-EIGRP)
- - [PPP and Frame-Relay](#PPP-and-Frame-Relay)
- - [Frame-Relay Commands](#Frame-Relay-Commands)
- - [Multi-Point no sub-interface; Sample Configuration 3:](#Multi-Point-no-sub-interface-Sample-Configuration-3)
- - [Multi-Point with sub-interface; Sample Configuration 4:](#Multi-Point-with-sub-interface-Sample-Configuration-4)
- - [Access Control Lists](#Access-Control-Lists)
- - [Standard Access Lists](#Standard-Access-Lists)
- - [Applying Access Lists](#Applying-Access-Lists)
- - [Dynamic Access List (Stateful-Firewall)](#Dynamic-Access-List-Stateful-Firewall)
- - [Time-Based ACL](#Time-Based-ACL)
- - [DHCP and NAT](#DHCP-and-NAT)
- - [Configure NAT for IPv4](#Configure-NAT-for-IPv4)
+ - [IP DHCP Snooping | Configuration de la sécurité du protocole DHCP](#IP-DHCP-Snooping)
+ - [Configuring Static Routes | Configuration du routage statique](#Configuring-Static-Routes)
+ - [Configuring RIP (IPv4) | Configuration du routage RIP](#Configuring-RIP-IPv4)
+ - [Additional Commands to configure RIP Version 2 | Configuration du routage RIP Version 2](#Additional-Commands-to-configure-RIP-Version-2)
+ - [Configuring RIPng (for IPv6) | Configuration du protocole RIPng pour l'IPv6](#Configuring-RIPng-for-IPv6)
+ - [Configuring IPv4 EIGRP | Configuration du protocole EIGRP pour l'IPv4](#Configuring-IPv4-EIGRP)
+ - [Configuring IPv4 OSPF(v2) | Configuration du protocole OSPF pour l'IPv4](#Configuring-IPv4-OSPFv2)
+ - [Configure IPv6 OSPF(v3) | Configuration du protocole OSPF pour l'IPv6](#Configure-IPv6-OSPFv3)
+ - [Configure IPv6 EIGRP | Configuration du protocole EIGRP pour l'IPv6](#Configure-IPv6-EIGRP)
+ - [PPP and Frame-Relay | Configuration des interfaces PPP (Point-to-Point Protocol)](#PPP-and-Frame-Relay)
+ - [Frame-Relay Commands | Commandes de configuration des interfaces WAN Frame-Relay](#Frame-Relay-Commands)
+ - [Multi-Point no sub-interface; Sample Configuration 3 | Configuration Frame-Relay Multi-point sans sous-interface](#Multi-Point-no-sub-interface-Sample-Configuration-3)
+ - [Multi-Point with sub-interface; Sample Configuration 4 | Configuration Frame-Relay Multi-point avec sous-interface](#Multi-Point-with-sub-interface-Sample-Configuration-4)
+ - [Access-Control-Lists | Listes de contrôle d'accès](#Access-Control-Lists)
+ - [Standard Access Lists | Listes de contrôle d'accès standard](#Standard-Access-Lists)
+ - [Applying Access Lists | Appliquer la liste de contrôle d'accès sur une interface](#Applying-Access-Lists)
+ - [Dynamic Access List (Stateful-Firewall) | Liste de controle d'accès dynamique](#Dynamic-Access-List-Stateful-Firewall)
+ - [Time-Based ACL | Liste de contrôle d'accès en fonction du temps](#Time-Based-ACL)
+ - [DHCP | Configuration du protocole DHCP pour l'IPv4 et IPv6](#DHCP-and-NAT)
+ - [Configure NAT for IPv4 | Configuration du protocole NAT pour l'IPv4](#Configure-NAT-for-IPv4)
 
-## Troubleshooting | Depannage
+## Troubleshooting | Dépannage
 Command|Additional Notes
 ----|----
-``show ip interface brief``                          | Use it all the time, specially when configuring IP Adresses              |
+``show ip interface brief``                          | Use it all the time - Vérifier les informations d'addressage             |
 ``show ip route``                                    | display routing table - Afficher la table de routage                     |
-``show vlan brief``                                  | on switch - show what VLANs exist, names, ports assigned                 |
+``show vlan brief``                                  | on switch | sur commutateurs - affiche les infos relatives aux Vlans     |
 ``show controllers serial x/x/x``                    | see if DCE or DTE connected and if clockrate is present                  |
 ``show interface trunk``                             | what ports are trunking, native vlan, allowed vlans                      |
-``show running-config``                              | display the running configuration - active                               |
-``show startup-config``                              | display the startup configuration                                        |
+``show running-config``                              | display the running configuration - affiche la configuration en cours    |
+``show startup-config``                              | display the startup configuration - affiche la configuration de démarrage|
 ``show ip protocol``                                 | what routing protocol, which networks, passive interfaces, neighbors     |
-``show cdp neighbors``                               | see directly connected Cisco devices                                     |
+``show cdp neighbors``                               | see directly connected Cisco devices - Les voisins CDP                   |
 ``show cdp interface``                               | which interfaces are running CDP                                         |
 ``show interface serial x/x/x``                      | what encapsulation, IP address, counters                                 |
 ``show interface fastethernet x/x switchport``       | configured mode and operating mode                                       |

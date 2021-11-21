@@ -53,7 +53,7 @@ Standard-Access-Lists	README.md	/^## Standard-Access-Lists$/;"	s	chapter:Cisco C
 Switch configuration | Configuration des commutateurs	README.md	/^## Switch configuration | Configuration des commutateurs$/;"	s	chapter:Cisco Command Reference | Référence pour les commandes cisco:
 Time-Based-ACL	README.md	/^## Time-Based-ACL$/;"	s	chapter:Cisco Command Reference | Référence pour les commandes cisco:
 To-configure-a-Layer-3-Etherchannel	README.md	/^## To-configure-a-Layer-3-Etherchannel$/;"	s	chapter:Cisco Command Reference | Référence pour les commandes cisco:
-Troubleshooting | Depannage	README.md	/^## Troubleshooting | Depannage$/;"	s	chapter:Cisco Command Reference | Référence pour les commandes cisco:
+Troubleshooting | Dépannage	README.md	/^## Troubleshooting | Dépannage$/;"	s	chapter:Cisco Command Reference | Référence pour les commandes cisco:
 Trunk-Creation	README.md	/^## Trunk-Creation$/;"	s	chapter:Cisco Command Reference | Référence pour les commandes cisco:
 VLAN-Creation-and-Port-Assignment	README.md	/^## VLAN-Creation-and-Port-Assignment$/;"	s	chapter:Cisco Command Reference | Référence pour les commandes cisco:
 VLAN-Trunking-Protocol-VTP-Configuration	README.md	/^## VLAN-Trunking-Protocol-VTP-Configuration$/;"	s	chapter:Cisco Command Reference | Référence pour les commandes cisco:
