@@ -47,7 +47,7 @@
  - [DHCP | Configuration du protocole DHCP pour l'IPv4 et IPv6](#DHCP-and-NAT)
  - [Configure NAT for IPv4 | Configuration du protocole NAT pour l'IPv4](#Configure-NAT-for-IPv4)
 
-## Troubleshooting | Dépannage
+## Troubleshooting
 Command|Additional Notes
 ----|----
 ``show ip interface brief``                          | Use it all the time - Vérifier les informations d'addressage             |
