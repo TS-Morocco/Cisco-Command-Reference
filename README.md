@@ -1,30 +1,27 @@
-# Cisco Command Reference: 
+# Cisco Command Reference | Référence pour les commandes cisco: 
 
-## Basic commands and common knowledge | Connaissances generales 
- - [Troubleshooting](#Troubleshooting)
- - [Router / Switch Basic Configuration](#RouterAndSwitch-Basic-Configuration)
- - [Enable/Disable Cisco Discovery Protocol (CDP)](#EnableDisable-Cisco-Discovery-Protocol-CDP)
- - [Common Port Numbers and Protocols](#Common-Port-Numbers-and-Protocols)
- - [Line editing commands](#Line-Editing-Commands)
+## Basic commands and common knowledge | Connaissances générales 
+ - [Troubleshooting | Dépannage-Résolution des problèmes](#Troubleshooting)
+ - [Router / Switch Basic Configuration | Configuration de base des commutateurs/Routeurs](#RouterAndSwitch-Basic-Configuration)
+ - [Enable/Disable Cisco Discovery Protocol (CDP) | Activation/Désactivation du protocole CDP](#EnableDisable-Cisco-Discovery-Protocol-CDP)
+ - [Common Port Numbers and Protocols | Numéro de ports et protocoles courants](#Common-Port-Numbers-and-Protocols)
+ - [Line editing commands | Raccourcis clavier](#Line-Editing-Commands)
 
 ## Switch configuration | Configuration des commutateurs
- - [Switch Management Interface Configuration](#For-Switch-Management-Interface-Configuration)
- - [VLAN Creation and Port Assignment](#VLAN-Creation-and-Port-Assignment)
- - [Trunk Creation](#Trunk-Creation)
+ - [Switch Management Interface Configuration | Configuration de l'interface de gestion des commutateurs](#For-Switch-Management-Interface-Configuration)
+ - [VLAN Creation and Port Assignment | Création de VLANs et configuration des ports d'accès](#VLAN-Creation-and-Port-Assignment)
+ - [Trunk Creation | Configuration des ports trunk](#Trunk-Creation)
  - [VLAN Trunking Protocol (VTP) Configuration](#VLAN-Trunking-Protocol-VTP-Configuration)
- - [Spanning Tree](#Spanning-Tree)
  - [Etherchannel (PortChannel)](#Etherchannel-PortChannel)
- - [Security](#Security-Practices)
+ - [Security | Sécurité](#Security-Practices)
  - [SSH Configuration](#SSH-Configuration)
- - [Port Security Configuration on a Switch](#Port-Security-Configuration-on-a-Switch)
+ - [Port Security Configuration on a Switch | Configuration de la sécurité des ports sur un commutateur](#Port-Security-Configuration-on-a-Switch)
  - [Spanning Tree Protocol (STP), HSRP](#Spanning-Tree-Protocol-STP-HSRP)
- - [Layer-3 Switch Commands](#Layer-3-Switch-Commands)
- - [To configure a Layer 3 Etherchannel:](#To-configure-a-Layer-3-Etherchannel)
+ - [Layer-3 Switch Commands | Configuration des commutateurs couche 3](#Layer-3-Switch-Commands)
 
 ## Router Configuration | Configuration des routeurs
- - [Configuring IPv4 Router Interface](#Configuring-IPv4-Router-Interface)
- - [Configuring IPv6 Router Interface](#Configuring-IPv6-Router-Interface)
- - [Router-on-a-Stick Configuration](#Router-on-a-Stick-Configuration)
+ - [Configuring IPv4/IPv6 Router Interface | Configuration des interfaces IPv4/IPv6 d'un routeur](#Configuring-IPv4-Router-Interface)
+ - [Router-on-a-Stick Configuration | Routage inter-Vlan](#Router-on-a-Stick-Configuration)
  - [Hot Standby Routing Protocol (HSRP) for IPv4](#Hot-Standby-Routing-Protocol-HSRP-for-IPv4)
  - [IP DHCP Snooping](#IP-DHCP-Snooping)
  - [Routing (Static, RIP, EIGRP, OSPF)](#Routing-Static-RIP-EIGRP-OSPF))
