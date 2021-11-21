@@ -48,7 +48,7 @@
  - [DHCP and NAT](#DHCP-and-NAT)
  - [Configure NAT for IPv4](#Configure-NAT-for-IPv4)
 
-## Troubleshooting | Depanage
+## Troubleshooting | Depannage
 Command|Additional Notes
 ----|----
 ``show ip interface brief``                          | Use it all the time, specially when configuring IP Adresses              |
