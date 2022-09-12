@@ -1,5 +1,5 @@
 ![Github Banner](https://github.com/TS-Morocco/Cisco-Command-Reference/blob/main/banner-cisco-page.jpg)
-<h1> Hello Fellow < Programmers/ >! <img src = "https://github.com/GoCode0/GoCode0/blob/main/wave.gif" width = 30px> </h1>
+<h1> Hello Fellow visitors! <img src = "https://github.com/GoCode0/GoCode0/blob/main/wave.gif" width = 30px> </h1>
 
 # Cisco Command Reference | Référence pour les commandes cisco:
 
